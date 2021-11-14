@@ -47,7 +47,7 @@ const ObjectTinder = (props) => {
                 </div>
             </div>
         );
-    } else if (objects.length == 0 && answers > 10) {
+    } else if (objects.length === 0 && answers > 10) {
         return (
             <div className="global-wrapper">
             <Success correctAnswers={answers} />

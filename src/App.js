@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ObjectTinder from './components/object-tinder';
 
