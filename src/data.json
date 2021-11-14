@@ -1,86 +1,82 @@
-{
-	"Diwali": [
-		{
-			"name": "Meenakshi Temple",
-			"festival": "Diwali",
-			"src": "./static/images/temple.png"
-		},
-		{
-			"name": "Meat",
-			"festival": "Diwali",
-			"src": "./static/images/mutton.png"
-		},
-		{
-			"name": "fireworks",
-			"festival": "Diwali",
-			"src": "./static/images/firework-diwali.png"
-		},
-		{
-			"name": "Moti Pak",
-			"festival": "Diwali",
-			"src": "./static/images/moti-pak.jpg"
-		},
-		{
-			"name": "Rangoli",
-			"festival": "Diwali",
-			"src": "./static/images/rangoli.jpg"
-		},
-		{
-			"name": "Oil Lamps",
-			"festival": "Diwali",
-			"src": "./static/images/oil-lamp.png"
-		},
-		{
-			"name": "Lakshmi",
-			"festival": "Diwali",
-			"src": "./static/images/lakshmi.png"
-		},
-		{
-			"name": "Maya Kachori",
-			"festival": "Diwali",
-			"src": "./static/images/kachori.png"
-		}
-	],
-	"NewYear": [
-		{
-			"name": "Fireworks",
-			"festival": "NewYears",
-			"src": "./static/images/firework-nye.png"
-		},
-		{
-			"name": "Falling clock",
-			"festival": "NewYears",
-			"src": "./static/images/ball.jpg"
-		},
-		{
-			"name": "Mulled wine",
-			"festival": "NewYears",
-			"src": "./static/images/mulled-wine.png"
-		},
-		{
-			"name": "Champagne",
-			"festival": "NewYears",
-			"src": "./static/images/champagne.png"
-		},
-		{
-			"name": "Mask",
-			"festival": "NewYears",
-			"src": "./static/images/mask.jpeg"
-		},
-		{
-			"name": "Beer",
-			"festival": "NewYears",
-			"src": "./static/images/beer.jpg"
-		},
-		{
-			"name": "Fairy lights",
-			"festival": "NewYears",
-			"src": "./static/images/fairy-lights.jpg"
-		},
-		{
-			"name": "Snowflake",
-			"festival": "NewYears",
-			"src": "./static/images/snowflake.png"
-		}
-	]
-}
+[
+	{
+		"name": "Meenakshi Temple",
+		"festival": "Diwali",
+		"src": "./static/images/temple.png"
+	},
+	{
+		"name": "Meat",
+		"festival": "Diwali",
+		"src": "./static/images/mutton.png"
+	},
+	{
+		"name": "fireworks",
+		"festival": "Diwali",
+		"src": "./static/images/firework-diwali.png"
+	},
+	{
+		"name": "Moti Pak",
+		"festival": "Diwali",
+		"src": "./static/images/moti-pak.jpg"
+	},
+	{
+		"name": "Rangoli",
+		"festival": "Diwali",
+		"src": "./static/images/rangoli.jpg"
+	},
+	{
+		"name": "Oil Lamps",
+		"festival": "Diwali",
+		"src": "./static/images/oil-lamp.png"
+	},
+	{
+		"name": "Lakshmi",
+		"festival": "Diwali",
+		"src": "./static/images/lakshmi.png"
+	},
+	{
+		"name": "Maya Kachori",
+		"festival": "Diwali",
+		"src": "./static/images/kachori.png"
+	},
+	{
+		"name": "Fireworks",
+		"festival": "NewYears",
+		"src": "./static/images/firework-nye.png"
+	},
+	{
+		"name": "Falling clock",
+		"festival": "NewYears",
+		"src": "./static/images/ball.jpg"
+	},
+	{
+		"name": "Mulled wine",
+		"festival": "NewYears",
+		"src": "./static/images/mulled-wine.png"
+	},
+	{
+		"name": "Champagne",
+		"festival": "NewYears",
+		"src": "./static/images/champagne.png"
+	},
+	{
+		"name": "Mask",
+		"festival": "NewYears",
+		"src": "./static/images/mask.jpeg"
+	},
+	{
+		"name": "Beer",
+		"festival": "NewYears",
+		"src": "./static/images/beer.jpg"
+	},
+	{
+		"name": "Fairy lights",
+		"festival": "NewYears",
+		"src": "./static/images/fairy-lights.jpg"
+	},
+	{
+		"name": "Snowflake",
+		"festival": "NewYears",
+		"src": "./static/images/snowflake.png"
+	}
+]

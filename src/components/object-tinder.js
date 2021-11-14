@@ -7,53 +7,57 @@ import Fail from "./fail";
 const ObjectTinder = (props) => {
     // DATA IMPORT
     const objectsImport = data;
-    const objectsDiwali = objectsImport.Diwali;
-    const objectsNewYears = objectsImport.NewYear;
-    const objectsConcat = objectsDiwali.concat(objectsNewYears);
-
-    
 
     // STATE PREPARATION
-    const [objects, setObjects] = useState(objectsConcat);
+    const [objects, setObjects] = useState(data);
     let [answers, setAnswers] = useState(0);
 
-    // GET OBJECT
-    
-    function handlenextObject (e, celebration) {
+    // HANDLE PLAYER ANSWER
+    function handlenextObject(e, celebration) {
         // VERIFY ANSWER
         if (celebration === object.festival) {
             setAnswers(answers += 1);
         }
-        const objectIndex = objects.findIndex(item => item.name === object.name);
-        // debugger;
-        objects.splice(objectIndex, 1)
-        console.log('updated state', objects);
+        // REMOVE CURRENT OBJECT FROM STATE
+        const currentObjects = [...objects];
+        const objectIndex = currentObjects.findIndex(item => item.name === object.name);
+        if (currentObjects.length > 0) {
+            currentObjects.splice(objectIndex, 1);
+            setObjects(currentObjects);
+        }
     }
 
-    const object = objects[Math.floor(Math.random()*objects.length)];
-    console.log('correct answers', answers);
-    // ROUTE TO SUCCESS OR FAIL BASED ON ANSWERS ARRAY
+    const object = objects[Math.floor(Math.random() * objects.length)];
 
+    console.log("answers in stateful component", answers);
+    // ROUTE TO CARROUSEL, SUCCESS OR FAIL BASED ON ANSWERS AND OBJECTS
     if (objects.length > 0) {
         return (
             <div className="global-wrapper">
-            <div className="image-container">
-                <img src={object.src} alt="" />
-            </div>
-            <div className="buttons-container">
-                <button key="Diwali" onClick={(e) => handlenextObject(e, "Diwali")}>Diwali</button> 
-                <button key="NewYear" onClick={(e) => handlenextObject(e, "NewYear")}>New Year's</button> 
-            </div>
-            <div className="progress-container"></div>
+            <h1>New Year's or Diwali?</h1>
+                <div className="image-container">
+                    <img src={object.src} alt="" />
+                </div>
+                <div className="buttons-container">
+                    <button key="Diwali" onClick={(e) => handlenextObject(e, "Diwali")}>Diwali</button>
+                    <button key="NewYear" onClick={(e) => handlenextObject(e, "NewYears")}>New Year's</button>
+                </div>
+                <div className="progress-container">
+                    {(objectsImport.length + 1) - objects.length} / 16
+                </div>
             </div>
         );
-    } else if (objects.length == 0 &&  answers > 8) {
+    } else if (objects.length == 0 && answers > 10) {
         return (
+            <div className="global-wrapper">
             <Success correctAnswers={answers} />
+            </div>
         );
     } else {
         return (
+            <div className="global-wrapper">
             <Fail correctAnswers={answers} />
+            </div>
         );
     }
 };
