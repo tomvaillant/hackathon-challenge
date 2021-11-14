@@ -1,48 +1,48 @@
 [
 	{
-		"name": "Meenakshi Temple",
+		"name": "Temple",
 		"festival": "Diwali",
-		"src": "./static/images/temple.png"
+		"src": "./static/images/temple.jpeg"
 	},
 	{
 		"name": "Meat",
 		"festival": "Diwali",
-		"src": "./static/images/mutton.png"
+		"src": "./static/images/mutton.jpeg"
 	},
 	{
 		"name": "fireworks",
 		"festival": "Diwali",
-		"src": "./static/images/firework-diwali.png"
+		"src": "./static/images/fireworks-diwali.jpeg"
 	},
 	{
 		"name": "Moti Pak",
 		"festival": "Diwali",
-		"src": "./static/images/moti-pak.jpg"
+		"src": "./static/images/moti-pak.jpeg"
 	},
 	{
 		"name": "Rangoli",
 		"festival": "Diwali",
-		"src": "./static/images/rangoli.jpg"
+		"src": "./static/images/rangoli.jpeg"
 	},
 	{
 		"name": "Oil Lamps",
 		"festival": "Diwali",
-		"src": "./static/images/oil-lamp.png"
+		"src": "./static/images/oil-lamp.jpeg"
 	},
 	{
 		"name": "Lakshmi",
 		"festival": "Diwali",
-		"src": "./static/images/lakshmi.png"
+		"src": "./static/images/lakshmi.jpeg"
 	},
 	{
 		"name": "Maya Kachori",
 		"festival": "Diwali",
-		"src": "./static/images/kachori.png"
+		"src": "./static/images/kachori.jpeg"
 	},
 	{
 		"name": "Fireworks",
 		"festival": "NewYears",
-		"src": "./static/images/firework-nye.png"
+		"src": "./static/images/fireworks-nye.jpeg"
 	},
 	{
 		"name": "Falling clock",
@@ -52,17 +52,17 @@
 	{
 		"name": "Mulled wine",
 		"festival": "NewYears",
-		"src": "./static/images/mulled-wine.png"
+		"src": "./static/images/mulled-wine.jpg"
 	},
 	{
 		"name": "Champagne",
 		"festival": "NewYears",
-		"src": "./static/images/champagne.png"
+		"src": "./static/images/champagne.jpg"
 	},
 	{
 		"name": "Mask",
 		"festival": "NewYears",
-		"src": "./static/images/mask.jpeg"
+		"src": "./static/images/mask.jpg"
 	},
 	{
 		"name": "Beer",
@@ -72,11 +72,11 @@
 	{
 		"name": "Fairy lights",
 		"festival": "NewYears",
-		"src": "./static/images/fairy-lights.jpg"
+		"src": "./static/images/fairy-lights.jpeg"
 	},
 	{
 		"name": "Snowflake",
 		"festival": "NewYears",
-		"src": "./static/images/snowflake.png"
+		"src": "./static/images/snowflake.jpg"
 	}
 ]
