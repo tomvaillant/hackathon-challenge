@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './object-tinder.css';
 import data from "../data.json";
-import Success from "./success";
-import Fail from "./fail";
+import Success from "./success.js";
+import Fail from "./fail.js";
 
 const ObjectTinder = (props) => {
     // DATA IMPORT
