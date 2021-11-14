@@ -1,0 +1,78 @@
+{
+	"Diwali": [
+		{
+			"name": "Oil Lamps",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Meenakshi Temple",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Meat",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "fireworks",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Moti Pak",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Rangoli",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Oil Lamps",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Lakshmi",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Maya Kachori",
+			"src": "../static/image/tbd.png"
+		}
+	],
+	"New Year": [
+		{
+			"name": "Fireworks",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Falling clock",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Mulled wine",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Champagne",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Resolutions",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Rangoli",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Fairy lights",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Beer",
+			"src": "../static/image/tbd.png"
+		},
+		{
+			"name": "Mask party / festival",
+			"src": "../static/image/tbd.png"
+		}
+	]
+}
