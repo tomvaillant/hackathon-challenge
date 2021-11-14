@@ -4,7 +4,8 @@ const Fail = (props) => {
 
     return (
         <div>
-        <h3>FAIL: You only answered correctly {props.correctAnswers} times</h3>
+        <h1>You're a complete failure!</h1>
+        <h3>Your mom should be ashamed. You got {17 - props.correctAnswers} wrong answers.</h3>
         <button onClick={() => window.location.reload()}>Play Again</button>
         </div>
     );

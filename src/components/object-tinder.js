@@ -34,29 +34,33 @@ const ObjectTinder = (props) => {
     if (objects.length > 0) {
         return (
             <div className="global-wrapper">
-            <h1>New Year's or Diwali?</h1>
+                <div>
+                    <h1>New Year or Diwali?</h1>
+                    <h3>Don't be a culture noob.</h3>
+                </div>
                 <div className="image-container">
                     <img src={object.src} alt="" />
                 </div>
                 <div className="buttons-container">
-                    <button key="Diwali" onClick={(e) => handlenextObject(e, "Diwali")}>Diwali</button>
-                    <button key="NewYear" onClick={(e) => handlenextObject(e, "NewYears")}>New Year's</button>
+                    <button onClick={(e) => handlenextObject(e, "Diwali")}>Diwali</button>
+                    <button onClick={(e) => handlenextObject(e, "NewYears")}>New Year</button>
                 </div>
                 <div className="progress-container">
                     {(objectsImport.length + 1) - objects.length} / 16
                 </div>
             </div>
+
         );
     } else if (objects.length === 0 && answers > 10) {
         return (
             <div className="global-wrapper">
-            <Success correctAnswers={answers} />
+                <Success correctAnswers={answers} />
             </div>
         );
     } else {
         return (
             <div className="global-wrapper">
-            <Fail correctAnswers={answers} />
+                <Fail correctAnswers={answers} />
             </div>
         );
     }
